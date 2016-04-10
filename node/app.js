@@ -8,8 +8,8 @@ serialport.on('open', function(){
 		}else {
 			console.log("UM");
 			var robot = require("robotjs");
-			robot.typeString("Hello World");
-			robot.keyTap("enter");
+			
+			//robot.keyTap("enter");
 		}
 		//console.log(data[0]);
 	});
